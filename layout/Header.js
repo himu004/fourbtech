@@ -42,110 +42,18 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
               <li>
                 <Link href="/about">About</Link>
               </li>
-              <li className="dropdown">
-                <Link href="/services">Services</Link>
-                <ul>
-                  <li>
-                    <Link href="/services">Services 01</Link>
-                  </li>
-                  <li>
-                    <Link href="/services-two">Services 02</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">Service Details</Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="far fa-angle-down" />
-                </div>
+              <li>
+                <Link href="/services-two">Services</Link>
               </li>
-              <li className="dropdown">
-                <Link href="/shop">Shop</Link>
-                <ul>
-                  <li>
-                    <Link href="/shop">All Products</Link>
-                  </li>
-                  <li>
-                    <Link href="/product-details">Product Details</Link>
-                  </li>
-                  <li>
-                    <Link href="/cart">Shopping Cart</Link>
-                  </li>
-                  <li>
-                    <Link href="/checkout">Checkout</Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="far fa-angle-down" />
-                </div>
+              <li>
+                <Link href="/project-list">Projects</Link>
               </li>
-              <li className="dropdown">
-                <Link href="#">Pages</Link>
-                <ul>
-                  <li>
-                    <Link href="/pricing">Pricing</Link>
-                  </li>
-                  <li>
-                    <Link href="/faqs">faqs</Link>
-                  </li>
-                  <li className="dropdown">
-                    <Link href="/projects">Projects</Link>
-                    <ul>
-                      <li>
-                        <Link href="/project-grid">Project Grid</Link>
-                      </li>
-                      <li>
-                        <Link href="/project-list">Project List</Link>
-                      </li>
-                      <li>
-                        <Link href="/project-details">Project Details</Link>
-                      </li>
-                    </ul>
-                    <div className="dropdown-btn">
-                      <span className="far fa-angle-down" />
-                    </div>
-                  </li>
-                  <li className="dropdown">
-                    <Link href="/team">Team</Link>
-                    <ul>
-                      <li>
-                        <Link href="/team">Team</Link>
-                      </li>
-                      <li>
-                        <Link href="/team-details">Team Details</Link>
-                      </li>
-                    </ul>
-                    <div className="dropdown-btn">
-                      <span className="far fa-angle-down" />
-                    </div>
-                  </li>
-                  <li>
-                    <Link href="/contact">Contact Us</Link>
-                  </li>
-                  <li>
-                    <Link href="/404">404 Error</Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="far fa-angle-down" />
-                </div>
-              </li>
-              <li className="dropdown">
-                <Link href="/blog">blog</Link>
-                <ul>
-                  <li>
-                    <Link href="/blog">blog Grid</Link>
-                  </li>
-                  <li>
-                    <Link href="/blog-standard">blog Standard</Link>
-                  </li>
-                  <li>
-                    <Link href="/blog-details">blog details</Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="far fa-angle-down" />
-                </div>
+              {/* For now its disabled, latter will be enabled */}
+              {/* <li>
+                <Link href="/contact">Contact Us</Link>
+              </li> */}
+              <li>
+                <Link href="/blog-standard">Blog</Link>
               </li>
             </ul>
           )}
