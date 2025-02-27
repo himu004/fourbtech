@@ -2,7 +2,7 @@ import CTA from "@/components/CTA";
 import PageBanner from "@/components/PageBanner";
 import { Services2 } from "@/components/Services";
 import { WorkingProcess2 } from "@/components/WorkingProcess";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 import Link from "next/link";
 const page = () => {
   return (

@@ -1,6 +1,6 @@
 import PageBanner from "@/components/PageBanner";
 import { WhyChooseUs3 } from "@/components/WhyChooseUs";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 const page = () => {
   return (
     <RiddaLayout>

@@ -5,7 +5,7 @@ import ClientSlider from "@/components/sliders/ClientSlider";
 import { TestimonialSlider1 } from "@/components/sliders/TestimonialSlider";
 import Team from "@/components/Team";
 import { WhyChooseUs2 } from "@/components/WhyChooseUs";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 const page = () => {
   return (
     <RiddaLayout>

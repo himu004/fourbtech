@@ -1,5 +1,5 @@
 import BlogSidebar from "@/components/BlogSidebar";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 import Link from "next/link";
 const page = () => {
   return (

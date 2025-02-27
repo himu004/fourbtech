@@ -11,11 +11,11 @@ import "@css/style.css";
 
 
 export const metadata = {
-  title: "KHALsys - IT Solutions & Services Agency",
-  description: "KHALsys - IT Solutions & Services Agency",
+  title: "FourBtech - IT Solutions & Services Agency",
+  description: "FourBtech - IT Solutions & Services Agency",
 };
 
-export default function RootLayout({ children }) {
+export default function FourBTechLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>

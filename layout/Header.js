@@ -160,23 +160,24 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
 const Header = ({ menus }) => {
   return (
     <header className="main-header header-one white-menu menu-absolute">
-      {/*Header-Upper*/}
-      <div className="header-upper bordered-bottom bgc-black">
-        <div className="container-fluid clearfix">
-          <div className="header-inner rel d-flex align-items-center">
-            <div className="logo-outer">
-              <div className="logo">
-                <Link href="/">
-                  <img
-                    src="assets/images/logos/favicon.png"
-                    alt="Logo"
-                    title="Logo"
-                  />
-                </Link>
-              </div>
+      {/* Header Upper */}
+        <div className="header-upper bordered-bottom bgc-black">
+          <div className="container-fluid clearfix">
+            <div className="header-inner rel d-flex align-items-center">
+          <div className="logo-outer">
+            <div className="logo">
+              <Link href="/">
+            <img
+              src="assets/images/logos/logo.png"
+              alt="Logo"
+              title="Logo"
+              style={{ width: "100px" }} 
+            />
+              </Link>
             </div>
-            <div className="nav-outer me-lg-auto ps-lg-5 ms-xxl-4 clearfix">
-              {/* Main Menu */}
+          </div>
+          <div className="nav-outer me-lg-auto ps-lg-5 ms-xxl-4 clearfix">
+            {/* Main Menu */}
               <Menu menus={menus} />
               {/* Main Menu End*/}
             </div>
@@ -184,7 +185,7 @@ const Header = ({ menus }) => {
             <div className="menu-btns d-lg-flex align-items-center">
               <div className="header-number me-5 d-none d-xl-block">
                 <i className="fas fa-phone me-1" />
-                <a href="callto:+000(123)889933">+000 (123) 88 99 33</a>
+                <a href="callto:+447424438741">+00 (44) 7424438741</a>
               </div>
               <Link
                 href="contact"

@@ -9,7 +9,7 @@ import {
   TestimonialSlider1,
   TestimonialsSlider4,
 } from "@/components/sliders/TestimonialSlider";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 import Link from "next/link";
 
 const page = () => {

@@ -1,6 +1,6 @@
 import PageBanner from "@/components/PageBanner";
 import ProgressBar from "@/components/ProgressBar";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 const page = () => {
   return (
     <RiddaLayout>

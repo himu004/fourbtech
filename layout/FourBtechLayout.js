@@ -5,7 +5,7 @@ import { riddaUtils } from "@/utility";
 import { Fragment, useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-const RiddaLayout = ({
+const FourBTechLayout = ({
   children,
   bodyClass = "ridda-body",
   header,
@@ -31,4 +31,4 @@ const RiddaLayout = ({
     </Fragment>
   );
 };
-export default RiddaLayout;
+export default FourBTechLayout;

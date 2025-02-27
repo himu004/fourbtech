@@ -1,7 +1,7 @@
 import { Faq2 } from "@/components/Faq";
 import PageBanner from "@/components/PageBanner";
 import { Priceing2 } from "@/components/Priceing";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 const page = () => {
   return (
     <RiddaLayout>

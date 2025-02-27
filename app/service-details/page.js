@@ -1,6 +1,6 @@
 import CTA from "@/components/CTA";
 import PageBanner from "@/components/PageBanner";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 const page = () => {
   return (
     <RiddaLayout>

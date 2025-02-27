@@ -1,6 +1,6 @@
 "use client";
 import PageBanner from "@/components/PageBanner";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 import { Accordion } from "react-bootstrap";
 const page = () => {
   return (

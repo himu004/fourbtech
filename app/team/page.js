@@ -1,6 +1,6 @@
 import PageBanner from "@/components/PageBanner";
 import Team from "@/components/Team";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 const page = () => {
   const teamMembers = [
     {

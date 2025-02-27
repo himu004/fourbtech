@@ -3,7 +3,7 @@ import PageBanner from "@/components/PageBanner";
 import Services from "@/components/Services";
 import { WhyChooseUs3 } from "@/components/WhyChooseUs";
 import WorkingProcess from "@/components/WorkingProcess";
-import RiddaLayout from "@/layout/RiddaLayout";
+import RiddaLayout from "@/layout/FourBtechLayout";
 import Link from "next/link";
 const page = () => {
   return (
