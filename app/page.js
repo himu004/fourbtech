@@ -11,6 +11,7 @@ import {
 } from "@/components/sliders/TestimonialSlider";
 import RiddaLayout from "@/layout/FourBtechLayout";
 import Link from "next/link";
+import FourBTechLayout from "./layout";
 
 const page = () => {
   return (
@@ -28,10 +29,11 @@ const page = () => {
               >
                 <h1>Elevate your Business With Us</h1>
                 <p>
-                  Web design is a critical aspect of creating an effective
-                  online presence for any business or individual. A
-                  well-designed website not only reflects a brand's identity but
-                  also enhances user experience, ensuring visitors can easily
+                  Web & Mobile App's are a critical aspect of creating an
+                  effective online presence for any business or individual. A
+                  well-designed website or not only reflects a brand's identity
+                  but also enhances user experience, ensuring visitors can
+                  easily
                 </p>
                 <Link
                   href="/project-grid"
@@ -39,7 +41,7 @@ const page = () => {
                 >
                   <span>Explore Our Projects</span>
                 </Link>
-                <h5>5m+ Trusted Clients</h5>
+                <h5>Trusted Clients</h5>
                 <div className="trusted-clients mt-25">
                   <img
                     data-aos="fade-right"
@@ -146,7 +148,7 @@ const page = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  Development
+                  Web Development
                 </div>
                 <div
                   className="circle mx-auto bgc-black text-white"
@@ -154,7 +156,7 @@ const page = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  Web Design
+                  Mobile Apps Development
                 </div>
                 <div
                   className="circle ms-auto bgc-primary"
@@ -162,7 +164,7 @@ const page = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  Mobile Apps Design
+                  Digital Marketing
                 </div>
               </div>
             </div>
@@ -177,7 +179,7 @@ const page = () => {
                   <span className="subtitle mt-10 mb-15">About Agency</span>
                   <h2>
                     Technology Transforming Ideas into Reality Empowering Brands
-                    with Engaging <span>Ridda</span> Agency
+                    with Engaging <span>FourBtech</span>
                   </h2>
                 </div>
                 <p>
@@ -187,10 +189,12 @@ const page = () => {
                   and developers are passionate about crafting
                 </p>
                 <ul className="list-style-one my-30">
+                  <li>Web Development</li>
+                  <li>Mobile Apps Development</li>
                   <li>Digital Product Design</li>
                   <li>SEO Optimization</li>
-                  <li>Web Development</li>
-                  <li>Mobile Apps Design</li>
+                  <li>Digital Marketing</li>
+                  <li>Video Production & Motion Graphics</li>
                 </ul>
                 <Link
                   href="/project-list"
@@ -615,11 +619,11 @@ const page = () => {
               <div className="about-content ms-xl-5 rmb-55">
                 <div className="section-title mb-30">
                   <span className="subtitle mt-10 mb-15">Who We Are</span>
-                  <h2>About Our Ridda Agency</h2>
+                  <h2>About Our FourBtech Agency</h2>
                 </div>
                 <p>
-                  At Ridda , we're passionate about helping businesses succeed
-                  in the digital world. With years of experience and a
+                  At FourBtech , we're passionate about helping businesses
+                  succeed in the digital world. With years of experience and a
                   dedication to innovation, we've built a reputation for
                   delivering exceptional results
                 </p>
@@ -647,6 +651,8 @@ const page = () => {
                       data-aos="zoom-in"
                       data-aos-duration={1500}
                       data-aos-offset={50}
+                      className="rounded"
+                      style={{ width: "100px" }}
                     />
                   </Link>
                 </div>
@@ -767,8 +773,8 @@ const page = () => {
       </section>
       {/* CTA Area end */}
       {/* Case Studies Area start */}
-            <CaseStudies />
-            {/* Case Studies Area end */}
+      <CaseStudies />
+      {/* Case Studies Area end */}
       {/* Testimonials Area Start */}
       <section className="testimonials-three-area text-center py-100 rel z-1">
         <div className="container-fluid">
@@ -981,8 +987,8 @@ const page = () => {
       {/* FAQ Area Start */}
       <Faq />
       {/* FAQ Area End */}
-       {/* Contact area start */}
-       <section className="contact-area pb-100 py-50">
+      {/* Contact area start */}
+      <section className="contact-area pb-100 py-50">
         <div className="container container-1290">
           <div className="row align-items-center justify-content-between">
             <div className="col-xl-5 col-lg-6">
@@ -993,7 +999,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="section-title mb-30">
-                  <h2>Ready To Take Your SEO to the Next Level?</h2>
+                  <h2>Ready To Take Your Business to the Next Level?</h2>
                   <p>
                     Contact us today to schedule a consultation or learn more
                     about our services
@@ -1006,7 +1012,7 @@ const page = () => {
                   <div className="text">
                     Main Location
                     <span className="h6">
-                      57 Main Street, Melbourne, Australia
+                      252-262 Romford Road, E7 9HZ, London, UK
                     </span>
                   </div>
                 </div>
@@ -1017,7 +1023,7 @@ const page = () => {
                   <div className="text">
                     Email Address
                     <span className="h6">
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:info@fourbtech.com">info@fourbtech.com</a>
                     </span>
                   </div>
                 </div>
@@ -1028,25 +1034,19 @@ const page = () => {
                   <div className="text">
                     Need Helps
                     <span className="h6">
-                      <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="callto:+447424438741">+447424438741</a>
                     </span>
                   </div>
                 </div>
                 <hr className="my-35" />
                 <div className="social-style-two mt-15">
                   <h6>Follow Us</h6>
-                  <Link href="contact">
-                    <i className="fab fa-facebook-f" />
-                  </Link>
-                  <Link href="contact">
-                    <i className="fab fa-twitter" />
-                  </Link>
-                  <Link href="contact">
-                    <i className="fab fa-youtube" />
-                  </Link>
-                  <Link href="contact">
-                    <i className="fab fa-linkedin-in" />
-                  </Link>
+                  <Link href="https://www.facebook.com/fourbtech.ltd">
+                      <i className="fab fa-facebook-f" />
+                    </Link>
+                    <Link href="https://www.linkedin.com/company/fourbtech">
+                      <i className="fab fa-linkedin-in" />
+                    </Link>
                 </div>
               </div>
             </div>
@@ -1067,7 +1067,6 @@ const page = () => {
                     <div className="form-group">
                       <input
                         type="text"
-                        id="name"
                         name="name"
                         className="form-control"
                         placeholder="Full Name"
@@ -1080,7 +1079,6 @@ const page = () => {
                     <div className="form-group">
                       <input
                         type="text"
-                        id="phone_number"
                         name="phone_number"
                         className="form-control"
                         placeholder="Phone No"

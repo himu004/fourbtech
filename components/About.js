@@ -14,7 +14,7 @@ const About = ({ counter }) => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                Development
+                Web Development
               </div>
               <div
                 className="circle mx-auto bgc-black text-white"
@@ -22,7 +22,7 @@ const About = ({ counter }) => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                Web Design
+                Mobile Apps Development
               </div>
               <div
                 className="circle ms-auto bgc-primary"
@@ -30,7 +30,7 @@ const About = ({ counter }) => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                Mobile Apps Design
+                Digital Marketing
               </div>
             </div>
           </div>
@@ -45,20 +45,22 @@ const About = ({ counter }) => {
                 <span className="subtitle mt-10 mb-15">About Agency</span>
                 <h2>
                   Technology Transforming Ideas into Reality Empowering Brands
-                  with Engaging <span>Ridda</span> Agency
+                  with Engaging <span>FourBtech</span>
                 </h2>
               </div>
               <p>
-                At our web design agency, we specialize in creating visually
-                stunning and highly functional websites that help businesses
-                stand out in the digital world. Our team of talented designers
-                and developers are passionate about crafting
+                At our IT Solutions & Services Agency agency, we specialize in
+                creating visually stunning and highly functional websites or mobile apps that
+                help businesses stand out in the digital world. Our team of
+                talented designers and developers are passionate about crafting
               </p>
               <ul className="list-style-one my-30">
+                <li>Web Development</li>
+                <li>Mobile Apps Development</li>
                 <li>Digital Product Design</li>
                 <li>SEO Optimization</li>
-                <li>Web Development</li>
-                <li>Mobile Apps Design</li>
+                <li>Digital Marketing</li>
+                <li>Video Production & Motion Graphics</li>
               </ul>
               <Link
                 href="project-list"

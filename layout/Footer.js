@@ -281,7 +281,10 @@ const Footer = () => {
                     <h6>Location</h6>
                   </div>
                   <div className="text">
-                    55 Main Street, 2nd block Malborne, Australia
+                  United Kingdom Address: 252-262 Romford Road, E7 9HZ, London, UK
+                  <br />
+                  <br/>
+                  Bangladesh Address: ka-5, Bashundhara Main Gate, Dhaka, Bangladesh
                   </div>
                 </div>
               </div>
@@ -297,9 +300,13 @@ const Footer = () => {
                     <h6>Contact Us</h6>
                   </div>
                   <div className="text">
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:info@fourbtech.com">info@fourbtech.com</a>
                     <br />
-                    <a href="callto:+000(123)8899">+000 (123) 88 99</a>
+                    <br></br>
+                    UK: <a href="callto:+447424438741">+447424438741</a>
+                    <br />
+                    <br />
+                    BD: <a href="callto:+8801674982831">+8801674982831</a>
                   </div>
                 </div>
               </div>
@@ -315,19 +322,10 @@ const Footer = () => {
                     <h6>Follow Us</h6>
                   </div>
                   <div className="social-style-two mt-15">
-                    <Link href="contact">
+                    <Link href="https://www.facebook.com/fourbtech.ltd">
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link href="contact">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-dribbble" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-behance" />
-                    </Link>
-                    <Link href="contact">
+                    <Link href="https://www.linkedin.com/company/fourbtech">
                       <i className="fab fa-linkedin-in" />
                     </Link>
                   </div>
@@ -343,7 +341,7 @@ const Footer = () => {
             <div className="col-lg-5">
               <div className="copyright-text text-center text-lg-start">
                 <p>
-                  Copyright © <Link href="/">Ridda</Link>, all rights reserved.
+                  Copyright © <Link href="/">FourBtech</Link>, all rights reserved.
                 </p>
               </div>
             </div>

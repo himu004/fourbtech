@@ -107,7 +107,7 @@ const Faq = () => {
   const [active, setActive] = useState("collapse1");
 
   return (
-    <section className="faq-area bgc-black text-white rel z-1">
+    <section className="faq-area bgc-black text-white rel z-1 pt-30">
       <div className="container bordered-x pb-90">
         <div className="row mx-xl-4 justify-content-center">
           <div className="col-xl-9 col-lg-11">

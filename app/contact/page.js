@@ -36,7 +36,7 @@ const page = () => {
                           <i className="far fa-map-marker-alt" />
                         </div>
                         <div className="text">
-                          57 Main Street, d-block Melbourne, Australia
+                        252-262 Romford Road, E7 9HZ, London, UK
                         </div>
                       </div>
                     </div>
@@ -53,11 +53,11 @@ const page = () => {
                         </div>
                         <div className="text">
                           <a href="mailto:support@gmail.com">
-                            support@gmail.com
+                            info@fourbtech.com
                           </a>
                           <br />
                           <a href="www.sayan.net" target="_blank">
-                            www.sayan.net
+                            www.fourbtech.com
                           </a>
                         </div>
                       </div>
@@ -74,9 +74,9 @@ const page = () => {
                           <i className="far fa-phone-volume" />
                         </div>
                         <div className="text">
-                          <a href="callto:+880(123)45688">+880 (123) 456 88</a>
+                          <a href="callto:+447424438741">UK: +447424438741</a>
                           <br />
-                          <a href="callto:+001(234)56897">+001 (234) 56897</a>
+                          <a href="callto:+8801674982831">BD: +8801674982831</a>
                         </div>
                       </div>
                     </div>
@@ -93,7 +93,7 @@ const page = () => {
                         </div>
                         <div className="text">
                           Monday - Friday <br />
-                          08:00am - 05:00pm
+                          08:00am - 07:00pm
                         </div>
                       </div>
                     </div>
@@ -222,7 +222,7 @@ const page = () => {
             data-aos-offset={50}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96777.16150026117!2d-74.00840582560909!3d40.71171357405996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1706508986625!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d19855.26739363306!2d-0.1276474!3d51.5073219!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1706508986625!5m2!1sen!2sbd"
               style={{ border: 0, width: "100%" }}
               allowFullScreen
               loading="lazy"

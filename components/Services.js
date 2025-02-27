@@ -5,17 +5,17 @@ const Services = ({ extraClass = "" }) => {
     {
       id: 1,
       image: "assets/images/services/service-timeline1.jpg",
-      title: "Web Design",
+      title: "Web Development",
     },
     {
       id: 2,
       image: "assets/images/services/service-timeline2.jpg",
-      title: "Branding",
+      title: "App Development",
     },
     {
       id: 3,
       image: "assets/images/services/service-timeline3.jpg",
-      title: "SEO",
+      title: "Digital Marketing",
     },
     {
       id: 4,
@@ -25,7 +25,7 @@ const Services = ({ extraClass = "" }) => {
     {
       id: 5,
       image: "assets/images/services/service-timeline5.jpg",
-      title: "3D Animation",
+      title: "Video Production",
     },
   ];
   return (
