@@ -6,6 +6,12 @@ import { TestimonialSlider1 } from "@/components/sliders/TestimonialSlider";
 import Team from "@/components/Team";
 import { WhyChooseUs2 } from "@/components/WhyChooseUs";
 import RiddaLayout from "@/layout/FourBtechLayout";
+
+export const metadata = {
+  title: "About Us - FourBtech - IT Solutions & Services Agency",
+  description: "About Us - FourBtech - IT Solutions & Services Agency",
+};
+
 const page = () => {
   return (
     <RiddaLayout>

@@ -1,6 +1,12 @@
 import PageBanner from "@/components/PageBanner";
 import RiddaLayout from "@/layout/FourBtechLayout";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Project Details",
+  description: "Modern Landing Pages Template Design",
+};
+
 const page = () => {
   return (
     <RiddaLayout>

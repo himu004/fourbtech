@@ -2,6 +2,12 @@ import BlogSidebar from "@/components/BlogSidebar";
 import PageBanner from "@/components/PageBanner";
 import RiddaLayout from "@/layout/FourBtechLayout";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Blog",
+  description: "This page highlights the latest blog posts by FourBtech.",
+};
+
 const page = () => {
   const blogPosts = [
     {

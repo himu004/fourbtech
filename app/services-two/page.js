@@ -7,7 +7,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <RiddaLayout>
-      <PageBanner pageTitle="Service" pageName="Service_02" />
+      <PageBanner pageTitle="Services" pageName="Services" />
 
       <section className="why-choose-area rel z-1">
         <div className="container px-sm-0 bordered-x py-130 rpy-100">

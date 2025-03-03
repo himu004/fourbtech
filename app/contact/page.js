@@ -1,6 +1,12 @@
 import PageBanner from "@/components/PageBanner";
 import { WhyChooseUs3 } from "@/components/WhyChooseUs";
 import RiddaLayout from "@/layout/FourBtechLayout";
+
+export const metadata = {
+  title: "Contact",
+  description: "Contact FourBtech for more information about our services.",
+};
+
 const page = () => {
   return (
     <RiddaLayout>
@@ -36,7 +42,7 @@ const page = () => {
                           <i className="far fa-map-marker-alt" />
                         </div>
                         <div className="text">
-                        252-262 Romford Road, E7 9HZ, London, UK
+                          252-262 Romford Road, E7 9HZ, London, UK
                         </div>
                       </div>
                     </div>

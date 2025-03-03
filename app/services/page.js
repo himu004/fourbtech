@@ -5,10 +5,17 @@ import { WhyChooseUs3 } from "@/components/WhyChooseUs";
 import WorkingProcess from "@/components/WorkingProcess";
 import RiddaLayout from "@/layout/FourBtechLayout";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Services",
+  description:
+    "The Complete Suite of Services We Provide for Your Online Success",
+};
+
 const page = () => {
   return (
     <RiddaLayout>
-      <PageBanner pageTitle="Service" pageName="Service_01" />
+      <PageBanner pageTitle="Services" pageName="Services" />
       <section className="what-we-provide-area rel z-1">
         <div className="container px-sm-0 bordered-x py-130 rpy-100">
           <div className="row justify-content-between">

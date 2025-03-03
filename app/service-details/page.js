@@ -1,6 +1,13 @@
 import CTA from "@/components/CTA";
 import PageBanner from "@/components/PageBanner";
 import RiddaLayout from "@/layout/FourBtechLayout";
+
+export const metadata = {
+  title: "Web Design",
+  description:
+    "Creating a modern website design involves combining aesthetics, functionality, and user experience to create a visually appealing and easy-to-navigate website. Here are some key steps to help you create a modern website design",
+};
+
 const page = () => {
   return (
     <RiddaLayout>

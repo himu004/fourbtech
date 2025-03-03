@@ -1,6 +1,13 @@
 import BlogSidebar from "@/components/BlogSidebar";
 import RiddaLayout from "@/layout/FourBtechLayout";
 import Link from "next/link";
+
+export const metadata = {
+  title: "How to Optimize Your Website for Faster Loading Speeds",
+  description:
+    "Learn how to optimize your website for faster loading speeds with this beginner's guide to SEO-friendly web design.",
+};
+
 const page = () => {
   return (
     <RiddaLayout>
