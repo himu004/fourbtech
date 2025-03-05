@@ -691,13 +691,17 @@ const page = () => {
             >
               <div className="team-item">
                 <div className="image">
-                  <img src="assets/images/team/team1.jpg" alt="Team Member" />
+                  <img 
+                  height={200} width={200}
+                  src="assets/images/team/kazi.jpg" 
+                  alt="Kazi Rfiqul Islam"
+                  />
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="team-details">Raymond R. Jacobs</Link>
+                    <Link href="team-details">Kazi Rafiqual Islam</Link>
                   </h5>
-                  <span className="designation">Ceo &amp; Founder</span>
+                  <span className="designation">Co-Founder &amp; Chairman</span>
                 </div>
               </div>
             </div>
@@ -709,13 +713,13 @@ const page = () => {
             >
               <div className="team-item">
                 <div className="image">
-                  <img src="assets/images/team/team2.jpg" alt="Team Member" />
+                  <img height={200} width={200} src="assets/images/team/himu.jpeg" alt="Himu Chowdhury" />
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="team-details">David F. Pelletier</Link>
+                    <Link href="team-details">Himu Chowdhury</Link>
                   </h5>
-                  <span className="designation">Senior Consultant</span>
+                  <span className="designation">Co-Founder &amp; CEO</span>
                 </div>
               </div>
             </div>
@@ -727,13 +731,13 @@ const page = () => {
             >
               <div className="team-item">
                 <div className="image">
-                  <img src="assets/images/team/team3.jpg" alt="Team Member" />
+                  <img height={200} width={200} src="assets/images/team/team3.jpg" alt="Junaid Ahmed  (Zama)" />
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="team-details">James B. Montanez</Link>
+                    <Link href="team-details">Junaid Ahmed (Zama)</Link>
                   </h5>
-                  <span className="designation">Junior Marketer</span>
+                  <span className="designation">Software Engineer</span>
                 </div>
               </div>
             </div>
@@ -745,13 +749,13 @@ const page = () => {
             >
               <div className="team-item">
                 <div className="image">
-                  <img src="assets/images/team/team4.jpg" alt="Team Member" />
+                  <img height={200} width={200} src="assets/images/team/team4.jpg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="team-details">Daniel R. Alexander</Link>
+                    <Link href="team-details">Mohammad Titon</Link>
                   </h5>
-                  <span className="designation">Hr &amp; Manager</span>
+                  <span className="designation">Digital Marketing Expert</span>
                 </div>
               </div>
             </div>
