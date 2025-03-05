@@ -55,6 +55,23 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
               <li>
                 <Link href="/blog-standard">Blog</Link>
               </li>
+              <li className="dropdown">
+                <Link href="/">Products</Link>
+                <ul>
+                  <li>
+                    <Link href="/home">OMS - Mobile Application</Link>
+                  </li>
+                  <li>
+                    <Link href="https://homex-properties.netlify.app/">HomeX Properties</Link>
+                  </li>
+                  <li>
+                    <Link href="/home">Bangla Bazar</Link>
+                  </li>
+                </ul>
+                <div className="dropdown-btn">
+                  <span className="far fa-angle-down" />
+                </div>
+              </li>
             </ul>
           )}
         </Accordion.Collapse>
