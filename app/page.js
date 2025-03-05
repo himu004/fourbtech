@@ -691,10 +691,11 @@ const page = () => {
             >
               <div className="team-item">
                 <div className="image">
-                  <img 
-                  height={200} width={200}
-                  src="assets/images/team/kazi.jpg" 
-                  alt="Kazi Rfiqul Islam"
+                  <img
+                    height={200}
+                    width={200}
+                    src="assets/images/team/kazi.jpg"
+                    alt="Kazi Rfiqul Islam"
                   />
                 </div>
                 <div className="content">
@@ -713,7 +714,13 @@ const page = () => {
             >
               <div className="team-item">
                 <div className="image">
-                  <img height={200} width={200} src="assets/images/team/himu.jpeg" alt="Himu Chowdhury" />
+                  <img
+                    height={200}
+                    width={200}
+                    src="assets/images/team/himu.jpeg"
+                    alt="Himu Chowdhury"
+                    style={{ objectFit: "cover" }}
+                  />
                 </div>
                 <div className="content">
                   <h5>
@@ -731,11 +738,16 @@ const page = () => {
             >
               <div className="team-item">
                 <div className="image">
-                  <img height={200} width={200} src="assets/images/team/team3.jpg" alt="Junaid Ahmed  (Zama)" />
+                  <img
+                    height={200}
+                    width={200}
+                    src="assets/images/team/junaid.png"
+                    alt="Junaid Ahmed Zama"
+                  />
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="team-details">Junaid Ahmed (Zama)</Link>
+                    <Link href="team-details">Junaid Ahmed Zama</Link>
                   </h5>
                   <span className="designation">Software Engineer</span>
                 </div>
@@ -749,7 +761,12 @@ const page = () => {
             >
               <div className="team-item">
                 <div className="image">
-                  <img height={200} width={200} src="assets/images/team/team4.jpg" alt="Team Member" />
+                  <img
+                    height={200}
+                    width={200}
+                    src="assets/images/team/team3.jpg"
+                    alt="Team Member"
+                  />
                 </div>
                 <div className="content">
                   <h5>
@@ -1046,11 +1063,11 @@ const page = () => {
                 <div className="social-style-two mt-15">
                   <h6>Follow Us</h6>
                   <Link href="https://www.facebook.com/fourbtech.ltd">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="https://www.linkedin.com/company/fourbtech">
-                      <i className="fab fa-linkedin-in" />
-                    </Link>
+                    <i className="fab fa-facebook-f" />
+                  </Link>
+                  <Link href="https://www.linkedin.com/company/fourbtech">
+                    <i className="fab fa-linkedin-in" />
+                  </Link>
                 </div>
               </div>
             </div>

@@ -62,7 +62,9 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
                     <Link href="/home">OMS - Mobile Application</Link>
                   </li>
                   <li>
-                    <Link href="https://homex-properties.netlify.app/">HomeX Properties</Link>
+                    <Link href="https://homex-properties.netlify.app/">
+                      HomeX Properties
+                    </Link>
                   </li>
                   <li>
                     <Link href="/home">Bangla Bazar</Link>
@@ -80,29 +82,27 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
   );
 };
 
-
-
 const Header = ({ menus }) => {
   return (
     <header className="main-header header-one white-menu menu-absolute">
       {/* Header Upper */}
-        <div className="header-upper bordered-bottom bgc-black">
-          <div className="container-fluid clearfix">
-            <div className="header-inner rel d-flex align-items-center">
-          <div className="logo-outer">
-            <div className="logo">
-              <Link href="/">
-            <img
-              src="assets/images/logos/logo.png"
-              alt="Logo"
-              title="Logo"
-              style={{ width: "100px" }} 
-            />
-              </Link>
+      <div className="header-upper bordered-bottom bgc-black">
+        <div className="container-fluid clearfix">
+          <div className="header-inner rel d-flex align-items-center">
+            <div className="logo-outer">
+              <div className="logo">
+                <Link href="/">
+                  <img
+                    src="assets/images/logos/logo.png"
+                    alt="Logo"
+                    title="Logo"
+                    style={{ width: "40px", height: "40px" }}
+                  />
+                </Link>
+              </div>
             </div>
-          </div>
-          <div className="nav-outer me-lg-auto ps-lg-5 ms-xxl-4 clearfix">
-            {/* Main Menu */}
+            <div className="nav-outer me-lg-auto ps-lg-5 ms-xxl-4 clearfix">
+              {/* Main Menu */}
               <Menu menus={menus} />
               {/* Main Menu End*/}
             </div>
